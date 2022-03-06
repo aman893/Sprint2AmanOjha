@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\Administrator\\Desktop\\Sprint2\\Actions\\CreateNewContact\\Res4',namePairs:[]}]};

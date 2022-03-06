@@ -1,0 +1,76 @@
+﻿Function OpenSkype
+url="https://web.skype.com/"
+systemutil.Run "chrome",url	
+End Function
+
+Function Login
+	
+'Synchronization Point
+'Browser("name:=Sign in to Skype").Sync
+
+'Improting data from external excel file
+DataTable.ImportSheet "C:\Users\Administrator\Desktop\Sprint2\TestData\Test_Data.xls", "Sheet1", "Global"
+
+'Checkpoint for Validating Skype logo on login page
+c=Browser("name:=Sign in to Skype").Page("title:=Sign in to Skype").Image("file name:=44_08ed657e48f1458641b5f879d82004cd.png").GetROProperty("visible")
+If c="True" Then
+	'Generating Pass report if logo is visible
+	Reporter.ReportEvent micPass,"Skype Logo Verified","Skype logo is visible on login page"
+End If
+'Checkpoint for Validating Skype logo on login page using CheckProperty Statement
+
+Browser("name:=Sign in to Skype").Page("title:=Sign in to Skype").Image("file name:=44_08ed657e48f1458641b5f879d82004cd.png").CheckProperty "visible","True"
+'Generating Pass report if logo is visible
+Reporter.ReportEvent micPass,"Skype Logo Verified","Skype logo is visible on login page"
+
+'Implementing With Statement
+With Browser("name:=Sign in to Skype")
+	.Sync
+	Wait(3)
+
+	With .Page("title:=Sign in to Skype")
+		.WebEdit("name:=loginfmt").Set DataTable("EmailLogin", dtGlobalSheet)
+		.WebButton("type:=submit").Click 
+		wait(10)
+		.WebEdit("name:=passwd").SetSecure DataTable("PassLogin", dtGlobalSheet)
+		.WebButton("name:=Sign in").Click
+	End With
+End With
+
+'Getting user email address from data table and storing in e
+'e=Datatable.Value("EmailLogin")
+
+'Synchronization Point using Wait Property Statement
+'Browser("name:=Skype").Page("title:=Skype").WebElement("abs_x:=1123","abs_y:=883").WaitProperty "visible","True"
+
+'Checkpoint for validating login functionality
+'oh=Browser("name:=Skype").Page("title:=Skype").WebElement("xpath:=//DIV[@data-text-as-pseudo-element='okobjectionkilled@gmail.com']").GetROProperty("outerhtml")
+
+'Storing outergtml property value in a variable oh
+'oh=Browser("name:=Skype").Page("title:=Skype").WebElement("abs_x:=1123","abs_y:=883").GetROProperty("outerhtml")
+'msgbox oh
+
+'Checking if user email is displayed after logging in
+
+'Using Instr method to check if 
+'y=Instr(oh,e)
+'If y<>0 Then
+       'Generating Done report if login is successful
+	'Reporter.ReportEvent micDone ,"Login Successful","The user has logged in successfully."
+'End If
+
+
+'nm=Browser("name:=Skype").Page("title:=Skype").WebElement("xpath:=//DIV[@data-text-as-pseudo-element='Welcome, Aman']").GetROProperty("outerhtml")
+'s=Instr(nm,"Nirmal")
+'If s<>0 Then
+       'Generating Done report if login is successful
+'	Reporter.ReportEvent micDone ,"Login Successful","User name is visible on home screen"
+'End If
+
+'Closing the browser
+'Browser("name:=Skype").Close
+End Function
+Function CloseBrowser
+'Closing the browser
+Browser("opentitle:=Sign in to Skype").Close
+End Function

@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_2021_GA
+Project("") = "RecoveryScenerio", "RecoveryScenerio\Test.tsp", "33B7CF77-AF3E-4C5E-B2BD-31719FC3A0EA"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\RecoveryScenerio\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "ShareFileContact", "ShareFileContact\Test.tsp", "8577AF1D-3C61-4D12-9DB6-D3F88A184448"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\ShareFileContact\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "StartingConversion", "StartingConversion\Test.tsp", "F6A0D53A-EC92-4A6C-B7D3-FFFA5A0B0C2D"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\StartingConversion\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "AudioMessage", "AudioMessage\Test.tsp", "EEF2553F-9E36-4140-9350-BDEFD9FAF6E2"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\AudioMessage\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "VideoCall", "VideoCall\Test.tsp", "D39D3756-FD49-4BBC-80BE-D378E309D36F"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\VideoCall\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "ScheduledCall", "ScheduledCall\Test.tsp", "7EA86DF4-4DA3-4D40-8C37-4673BE4FA7D2"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\ScheduledCall\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "OutputValue", "OutputValue\Test.tsp", "F93804B3-C640-4931-8D3A-AA7C306ECED6"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\OutputValue\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "UpdateProfilePicture", "UpdateProfilePicture\Test.tsp", "DB04EDB7-7BA4-423C-BD8F-AFEB2FE4DDFB"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\UpdateProfilePicture\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "AddGroupChat", "AddGroupChat\Test.tsp", "73F4C279-67EC-4A87-AE23-2C8435E73407"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\AddGroupChat\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "HostMeetingWithMeetNow", "HostMeetingWithMeetNow\Test.tsp", "F346EF94-EB03-4314-A2E8-D295E1612EEB"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Administrator\Desktop\Sprint2\Actions\HostMeetingWithMeetNow\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		33B7CF77-AF3E-4C5E-B2BD-31719FC3A0EA.Debug|Any CPU.Build.0 = Debug|Any CPU
+		33B7CF77-AF3E-4C5E-B2BD-31719FC3A0EA.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		33B7CF77-AF3E-4C5E-B2BD-31719FC3A0EA.Release|Any CPU.Build.0 = Release|Any CPU
+		33B7CF77-AF3E-4C5E-B2BD-31719FC3A0EA.Release|Any CPU.ActiveCfg = Release|Any CPU
+		8577AF1D-3C61-4D12-9DB6-D3F88A184448.Debug|Any CPU.Build.0 = Debug|Any CPU
+		8577AF1D-3C61-4D12-9DB6-D3F88A184448.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		8577AF1D-3C61-4D12-9DB6-D3F88A184448.Release|Any CPU.Build.0 = Release|Any CPU
+		8577AF1D-3C61-4D12-9DB6-D3F88A184448.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F6A0D53A-EC92-4A6C-B7D3-FFFA5A0B0C2D.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F6A0D53A-EC92-4A6C-B7D3-FFFA5A0B0C2D.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F6A0D53A-EC92-4A6C-B7D3-FFFA5A0B0C2D.Release|Any CPU.Build.0 = Release|Any CPU
+		F6A0D53A-EC92-4A6C-B7D3-FFFA5A0B0C2D.Release|Any CPU.ActiveCfg = Release|Any CPU
+		EEF2553F-9E36-4140-9350-BDEFD9FAF6E2.Debug|Any CPU.Build.0 = Debug|Any CPU
+		EEF2553F-9E36-4140-9350-BDEFD9FAF6E2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		EEF2553F-9E36-4140-9350-BDEFD9FAF6E2.Release|Any CPU.Build.0 = Release|Any CPU
+		EEF2553F-9E36-4140-9350-BDEFD9FAF6E2.Release|Any CPU.ActiveCfg = Release|Any CPU
+		D39D3756-FD49-4BBC-80BE-D378E309D36F.Debug|Any CPU.Build.0 = Debug|Any CPU
+		D39D3756-FD49-4BBC-80BE-D378E309D36F.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		D39D3756-FD49-4BBC-80BE-D378E309D36F.Release|Any CPU.Build.0 = Release|Any CPU
+		D39D3756-FD49-4BBC-80BE-D378E309D36F.Release|Any CPU.ActiveCfg = Release|Any CPU
+		7EA86DF4-4DA3-4D40-8C37-4673BE4FA7D2.Debug|Any CPU.Build.0 = Debug|Any CPU
+		7EA86DF4-4DA3-4D40-8C37-4673BE4FA7D2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		7EA86DF4-4DA3-4D40-8C37-4673BE4FA7D2.Release|Any CPU.Build.0 = Release|Any CPU
+		7EA86DF4-4DA3-4D40-8C37-4673BE4FA7D2.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F93804B3-C640-4931-8D3A-AA7C306ECED6.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F93804B3-C640-4931-8D3A-AA7C306ECED6.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F93804B3-C640-4931-8D3A-AA7C306ECED6.Release|Any CPU.Build.0 = Release|Any CPU
+		F93804B3-C640-4931-8D3A-AA7C306ECED6.Release|Any CPU.ActiveCfg = Release|Any CPU
+		DB04EDB7-7BA4-423C-BD8F-AFEB2FE4DDFB.Debug|Any CPU.Build.0 = Debug|Any CPU
+		DB04EDB7-7BA4-423C-BD8F-AFEB2FE4DDFB.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		DB04EDB7-7BA4-423C-BD8F-AFEB2FE4DDFB.Release|Any CPU.Build.0 = Release|Any CPU
+		DB04EDB7-7BA4-423C-BD8F-AFEB2FE4DDFB.Release|Any CPU.ActiveCfg = Release|Any CPU
+		73F4C279-67EC-4A87-AE23-2C8435E73407.Debug|Any CPU.Build.0 = Debug|Any CPU
+		73F4C279-67EC-4A87-AE23-2C8435E73407.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		73F4C279-67EC-4A87-AE23-2C8435E73407.Release|Any CPU.Build.0 = Release|Any CPU
+		73F4C279-67EC-4A87-AE23-2C8435E73407.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F346EF94-EB03-4314-A2E8-D295E1612EEB.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F346EF94-EB03-4314-A2E8-D295E1612EEB.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F346EF94-EB03-4314-A2E8-D295E1612EEB.Release|Any CPU.Build.0 = Release|Any CPU
+		F346EF94-EB03-4314-A2E8-D295E1612EEB.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
